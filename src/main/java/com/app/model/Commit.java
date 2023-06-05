@@ -1,11 +1,4 @@
 package com.app.model;
 
-public class Commit {
-
-    private String sha;
-
-    public String getSha() {
-        return sha;
-    }
-
+public record Commit(String sha) {
 }
